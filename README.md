@@ -1,14 +1,14 @@
-# WpfNinjectFrame
+## WpfNinjectFrame
 
 This is a custom controller for navigating between pages, with Ninject resolving viewmodel dependencies in the background.
 
-## Table of Contents
+### Table of Contents
 - [WpfNinjectFrame](#wpfninjectframe)
   - [Table of Contents](#table-of-contents)
   - [Important notes](#important-notes)
-    - [How it works](#how-it-works)
+  - [How it works](#how-it-works)
 
-## Important notes
+### Important notes
 
 - The library references `Ninject`
 - The interface of the library is based on `Ninject` and `System.Windows.Components.Frame`
