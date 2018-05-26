@@ -55,17 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="View\ExamplePageWithoutParameters.xaml.cs">
+    <Compile Include="Page\ExamplePageWithoutParameters.xaml.cs">
       <DependentUpon>ExamplePageWithoutParameters.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ExamplePageWithParameters.xaml.cs">
+    <Compile Include="Page\ExamplePageWithParameters.xaml.cs">
       <DependentUpon>ExamplePageWithParameters.xaml</DependentUpon>
     </Compile>
     <Compile Include="Proof\IProofGenerator.cs" />
     <Compile Include="Proof\ProofGenerator.cs" />
     <Compile Include="ViewModel\ExampleViewModelWithoutParameters.cs" />
     <Compile Include="ViewModel\ExampleViewModelWithParameters.cs" />
-    <Page Include="Window.xaml">
+    <Page Include="KernelWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -76,15 +76,15 @@
     <Compile Include="Binding\AnonymousRelayCommand.cs" />
     <Compile Include="Binding\GenericRelayCommand.cs" />
     <Compile Include="Binding\ViewModelBase.cs" />
-    <Compile Include="Window.xaml.cs">
-      <DependentUpon>Window.xaml</DependentUpon>
+    <Compile Include="KernelWindow.xaml.cs">
+      <DependentUpon>KernelWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="View\ExamplePageWithoutParameters.xaml">
+    <Page Include="Page\ExamplePageWithoutParameters.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\ExamplePageWithParameters.xaml">
+    <Page Include="Page\ExamplePageWithParameters.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:TestProject"
 				 xmlns:ninjectFrame="clr-namespace:NinjectFrame;assembly=NinjectFrame"
-             StartupUri="Window.xaml">
+             StartupUri="KernelWindow.xaml">
     <Application.Resources>
     </Application.Resources>
 </Application>

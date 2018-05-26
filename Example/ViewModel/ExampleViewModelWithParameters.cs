@@ -1,8 +1,8 @@
 ﻿using NinjectFrame;
 using System.Windows.Input;
 using TestProject.Binding;
+using TestProject.Page;
 using TestProject.Proof;
-using TestProject.View;
 
 namespace TestProject.ViewModel
 {

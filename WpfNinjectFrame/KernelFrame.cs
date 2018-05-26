@@ -3,15 +3,9 @@ using Ninject.Parameters;
 using Ninject.Planning.Bindings;
 using Ninject.Syntax;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Navigation;
 
 namespace NinjectFrame
 {
